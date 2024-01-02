@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Netflix</title>
+    <link rel="website icon" type="png" href="../img/icon.jpg">
+</head>
+<body id="singPage">
+        <div class="sing_header">
+            <a href="../html/index.html">
+                <img src="../img/sing.png" alt="" id="logo_sing">
+            </a>
+            <button class="btn" onclick="loginPage()">Oturum aç</button>
+        </div>
+<!-- nav -->
+    <div class="sing_container">
+       <div class="row_sing">
+            <h1 class="font-700 text-36">Üyeliğinizi başlatmak için bir parola oluşturun</h1>
+            <p>Sadece birkaç adım daha kaldı, sonra bitiyor!
+            Biz de formaliteyi hiç sevmiyoruz.</p>
+
+
+            
+            <form  id="signupForm"  class="input_sing">
+                <input type="text" id="name" placeholder="isim">
+                <input type="text" id="surname" placeholder="soyisim">
+                <input id="sing_input_mail"  type="email" placeholder="E-posta" required>
+                <input id="sing_input_ps" type="password" placeholder="Bir parola ekleyin" required>
+                <div>
+                    <input type="checkbox">
+                <label for="checkbox">Netflix özel teklifleri e-posta ile gönderilmesin</label>
+                </div>
+                <button type="button" id="btn_sing" class="btn_login width-auto h-45 radius-5" 
+                onclick="register()">İleri</button>
+            </form>
+           
+        </div>
+    </div>
+    <div id="sonuc" class="message">
+
+    </div>
+
+
+    <script src="../js/sing.js"></script>
+    <!-- <script src="../js/ps.js"></script> -->
+</body>
+</html>

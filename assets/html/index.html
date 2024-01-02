@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;1,100;1,400&display=swap"
+        rel="stylesheet">
+    <!-- icon -->
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/all.min.css">
+    <link rel="stylesheet" href=" https://fontawesome.com/icons/language?f=classic&s=solid"> -->
+    <title>Netflix Türkiye-TV Programlarını Çevirimiçi İzleyin</title>
+    <link rel="website icon" type="png" href="../img/icon.jpg">
+</head>
+
+<body>
+    <!-- header start -->
+
+    <header>
+        <div class="container">
+            <div class="buttons">
+                <a href="#logo">
+                    <img src="../img/logo.jpg" alt="" id="logo">
+                </a>
+                <div class="select">
+                    <select class="btn_select btn">
+                        <option value="option1">Türkçe</option>
+                        <option value="option2">İngilizce</option>
+                    </select>
+                    <button class="btn_login btn" type="button" onclick="loginPage()">Oturum Aç</button>
+                </div>
+            </div>
+            <div class="navbar">
+                <h1 class="font-900 text-36">Sınırsız film, dizi ve çok daha fazlası</h1>
+                <p class="font-400 text-24">İstediğiniz yerde izleyin. İstediğiniz zaman iptal edin.</p>
+                <div class="login">
+                    <form action="email" id="login_form">
+                        <h3 class="font-400 text-18">İzlemeye hazır mısınız? Üye olmak ya da hesabınıza tekrar ulaşmak
+                            için tek yapmanız gereken e-posta adresinizi girmek.</h3>
+                        <div class="label">
+                            <label for="email">
+                                <input type="email" id="email" class="mail_input font-700 color-w"
+                                    oninput="checkEmailValidity()" placeholder="E-posta adresi">
+                                <button type="button" id="btn_start" class="btn_mail" onclick="homePage()">Başlayın</button>
+                                <div id="massage"></div>
+                            </label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <main>
+        <section id="back_section">
+            <div class="container">
+                <div class="movie">
+
+                </div>
+                <!-- <img aria-hidden="true" alt="movie" class="movie"> -->
+            </div>
+        </section>
+        <!-- article -------------------------------------------------- -->
+        <section id="section_article">
+            <div class="container">
+                <!-- videolu -->
+                <div class="text-left">
+                    <h1 class="font-700 size-2rem">Televiyonunuzda İzleyin</h1>
+                    <p class="font-400 text-24">Akıllı TV, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray oynatıcılar
+                        ve daha fazlasında seyredin.</p>
+                </div>
+                <div class="width">
+                    <video class="absolute video1" data-uia="nmhp-card-animation-asset-video" autoplay="" playsinline=""
+                        muted="" loop="">
+                        <source
+                            src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
+                            type="video/mp4">
+                    </video>
+                    <img src="../img/tv.png" alt="" class="img_section  relative">
+                </div>
+            </div>
+            <div class="container">
+                <div class="width">
+                    <img src="../img/mobile-0819.jpg" alt="" class="img_section">
+
+                </div>
+                <div class="text-right">
+                    <h1 class="font-700 size-2rem">Çevrimdışı izlemek için içerikleri indirin</h1>
+                    <p class="font-400 text-24">En sevdiğiniz içerikleri kolayca kaydedin ve her zaman izleyecek bir
+                        şeyleriniz olsun.</p>
+                </div>
+            </div>
+            <!-- video -->
+            <div class="container">
+                <div class="text-left">
+                    <h1 class="font-700 text-36">İstediğiniz her yerde izleyin</h1>
+                    <p class="font-400 text-24">Telefonda, tablette, bilgisayarda, televizyonda sınırsız film ve dizi
+                        izleyin.</p>
+                </div>
+                <div class="width">
+                    <video class="absolute video" data-uia="nmhp-card-animation-asset-video" autoplay="" playsinline=""
+                        muted="" loop="">
+                        <source
+                            src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v"
+                            type="video/mp4">
+                    </video>
+                    <img src="../img/device-pile.png" alt="tv" class="img_section relative">
+                </div>
+            </div>
+            <div class="container">
+                <div class="width">
+                    <img src="../img/child.png" alt="children" class="img_section">
+                </div>
+                <div class="text-right">
+                    <h1 class="font-700 size-2rem">Çocuklarınız için profiller oluşturun</h1>
+                    <p class="font-400 text-24">Üyeliğinize dâhil olan bu ücretsiz deneyim sayesinde çocuklarınız,
+                        sadece onlara özel bir alanda en sevdikleri karakterlerle maceralara atılabilir.</p>
+                </div>
+            </div>
+            <div class="container_question container">
+                <h3 class="font-900 text-54">Sıkça Sorulan Sorular</h3>
+                <ul>
+                    <li class="text_question">
+                        <h3>
+                            <button class="button_question">
+                                <span> Netflix Nedir?</span>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="elj7tfr3 e164gv2o5 default-ltr-cache-1x8sdhp e1svuwfo1" data-name="Plus"
+                                    alt="">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M11 11V2H13V11H22V13H13V22H11V13H2V11H11Z" fill="currentColor">
+                                    </path>
+                                </svg>
+                                <!-- <details>
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="elj7tfr3 e164gv2o5 default-ltr-cache-1x8sdhp e1svuwfo1" data-name="Plus"
+                                    alt="">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M11 11V2H13V11H22V13H13V22H11V13H2V11H11Z" fill="currentColor">
+                                    </path>
+                                </svg>
+                                    < <summary>Epcot Center</summary> -->
+                                    <!-- <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+                                  </details> -->
+                            </button>
+                        </h3>
+
+                    </li>
+                    <li class="text_question">
+                        <h3>
+                            <button class="button_question">
+                                <span> Netflix'in maliyeti nedir?</span>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="elj7tfr3 e164gv2o5 default-ltr-cache-1x8sdhp e1svuwfo1" data-name="Plus"
+                                    alt="">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M11 11V2H13V11H22V13H13V22H11V13H2V11H11Z" fill="currentColor">
+                                    </path>
+                                </svg>
+                            </button>
+                        </h3>
+
+                    </li>
+                    <li class="text_question">
+                        <h3>
+                            <button class="button_question">
+                                <span> Nerede izleyebilirim?</span>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="elj7tfr3 e164gv2o5 default-ltr-cache-1x8sdhp e1svuwfo1" data-name="Plus"
+                                    alt="">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M11 11V2H13V11H22V13H13V22H11V13H2V11H11Z" fill="currentColor">
+                                    </path>
+                                </svg>
+                            </button>
+                        </h3>
+                    </li>
+                    <li class="text_question">
+                        <h3>
+                            <button class="button_question">
+                                <span>Nasıl iptal ederim?</span>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="elj7tfr3 e164gv2o5 default-ltr-cache-1x8sdhp e1svuwfo1" data-name="Plus"
+                                    alt="">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M11 11V2H13V11H22V13H13V22H11V13H2V11H11Z" fill="currentColor">
+                                    </path>
+                                </svg>
+                            </button>
+
+                        </h3>
+
+                    </li>
+                    <li class="text_question">
+                        <h3>
+                            <button class="button_question" aria-expanded="false">
+                                <span>
+                                    Netflix'te ne izleyebilirim?
+                                </span>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="elj7tfr3 e164gv2o5 default-ltr-cache-1x8sdhp e1svuwfo1" data-name="Plus"
+                                    alt="">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M11 11V2H13V11H22V13H13V22H11V13H2V11H11Z" fill="currentColor">
+                                    </path>
+                                </svg>
+                            </button>
+                        </h3>
+                    </li>
+                    <li class="text_question">
+                        <h3>
+                            <button class="button_question">
+
+                                <span>Netflix çocuklar için uygun mudur?</span>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="elj7tfr3 e164gv2o5 default-ltr-cache-1x8sdhp e1svuwfo1" data-name="Plus"
+                                    alt="">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M11 11V2H13V11H22V13H13V22H11V13H2V11H11Z" fill="currentColor">
+                                    </path>
+                                </svg>
+                            </button>
+                        </h3>
+                    </li>
+                </ul>
+                <div class="login">
+                    <form action="email" id="login_form">
+                        <h3 class="font-400 text-18">İzlemeye hazır mısınız? Üye olmak ya da hesabınıza tekrar ulaşmak
+                            için tek yapmanız gereken e-posta adresinizi girmek.</h3>
+                        <div class="label">
+                            <label>
+                                <input type="email" id="email" class="mail_input font-700 color-w"
+                                    placeholder="E-posta adresi">
+                                <button id="btn_start" class="btn_mail">Başlayın</button>
+                            </label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+    <!-- main end -->
+    <!-- footer************************** -->
+    <footer>
+        <div class="container">
+            <div class="phone">
+                <h4>Sorularınız mı var?
+                    <a href="tel:0850-390-744">0850-390-744</a>
+                    numaralı telefonu arayın
+                </h4>
+            </div>
+            <div class="list">
+                <ul class="footer_list">
+                    <ul>
+                        <li><a href="#">SSS</a></li>
+                        <li><a href="#">Hesap</a></li>
+                        <li><a href="#">Yatırımcı İlişkileri</a></li>
+                        <li><a href="#">Hediye Kartı Kullan</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">Kullanım Koşulları</a></li>
+                        <li><a href="#">Çerez Tercihleri</a></li>
+                        <li><a href="#">Bize ulaşın</a></li>
+                        <li><a href="#">Yasal Hükümler</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">Yardım Merkezi</a></li>
+                        <li><a href="#">Medya Merkezi</a></li>
+                        <li><a href="#">İş İmkanları</a></li>
+                        <li><a href="#">İzleme Yolları</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">Gizlilik</a></li>
+                        <li><a href="#">Kurumsal Bilgiler</a></li>
+                        <li><a href="#">Hız Testi</a></li>
+                        <li><a href="#">Sadece Netflix'te</a></li>
+                    </ul>
+
+                </ul>
+            </div>
+            <select class="btn_select btn">
+                <option value="option1">Türkçe</option>
+                <option value="option2">İngilizce</option>
+            </select>
+        </div>
+
+    </footer>
+
+    <script src="../js/input.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/login.js"></script>
+    <script src="../js/sing.js"></script>
+</body>
+
+</html>

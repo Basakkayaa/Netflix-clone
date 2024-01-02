@@ -1,0 +1,37 @@
+@media (max-width:800px) {
+  html{
+        font-size: 16px;
+        font-weight: 200;
+        flex-direction: column;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+}
+
+@media (max-width:953px) {
+
+  #section_article>.container:nth-child(odd){
+    flex-direction: column;
+    padding: 10%;
+    text-align: center;
+    align-items: center;
+  }
+
+  #section_article>.container:nth-child(even){
+    flex-direction: column;
+    padding: 10%;
+    align-items: center;
+        justify-content: center;
+        text-align: center;
+  }
+  .img_section{
+    margin-bottom: 5%;
+  }
+  footer{
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}

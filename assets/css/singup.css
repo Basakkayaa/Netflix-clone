@@ -1,0 +1,46 @@
+#singPage{
+    background-color: white;
+    color: black;
+}
+
+.sing_header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid wheat;
+}
+
+
+.sing_container{
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.row_sing{
+    position: relative;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+.input_sing{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input_sing>input:not(:last-child){
+    height: 30px;
+}
+.message{
+    width: 500px;
+    height: 60px;
+    margin: auto;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;1,100;1,400&display=swap"
+        rel="stylesheet">
+    <!-- icon -->
+    <link rel="stylesheet" href=" https://fontawesome.com/icons/language?f=classic&s=solid">
+    <title>Netflix Türkiye</title>
+    <link rel="website icon" type="png" href="../img/icon.jpg">
+</head>
+<body>
+    <div class="Login_container movie_login">
+        <div class="logo_login">
+            <a href="../html/index.html">
+                <img src="../img/logo.jpg" alt="logo" id="logo">
+            </a>
+        </div>
+        <div class="login_element">
+            <div class="row">
+                <h1 class="color-w font-700 text-24 left">Oturum Aç</h1>
+                <br>
+              <form id="loginForm" class="row">
+                <input id="login_email" type="email" placeholder="E-posta adresiniz" name="uname" required>
+    
+                <input id="login_password" type="password" placeholder="Parola" name="psw" required>
+                
+                <button id="login_btn" type="button" class="btn_login width-309 h-45 radius-5" onclick="login()">Oturum Aç</button>
+              </form>
+              
+                <label for="checkbox" class="rem">Beni hatırla
+                      <input type="checkbox">
+                </label>
+                <p>Netflix'e katılmak ister misiniz? 
+                    <a href="#" class="color-w"  onclick="singPage()">Şimdi Kaydolun</a>
+                </p>
+                <span>Bu sayfa robot olmadığınızı kanıtlamak için Google reCAPTCHA tarafından korunuyor.</span>
+            </div>
+    </div>
+    <!-- <footer id="login_footer">
+        <div class="foot_container">
+            <div class="phone">
+                <h4 class="center">Sorularınız mı var?
+                    <a href="tel:0850-390-744">0850-390-744</a>
+                    numaralı telefonu arayın
+                </h4>
+            </div>
+            <div class="foot_login list">
+                <ul class="footer_list">
+                    <li><a href="#">SSS</a></li>
+                    <li><a href="#">Hesap</a></li>
+                    <li><a href="#">Yatırımcı İlişkileri</a></li>
+                    <li><a href="#">Hediye Kartı Kullan</a></li>
+                    <li><a href="#">Gizlilik</a></li>
+                    <li><a href="#">Kurumsal Bilgiler</a></li>
+                    <li><a href="#">Hız Testi</a></li>
+                </ul>
+            </div>
+            <select class="btn_select btn">
+                <option value="option1">Türkçe</option>
+                <option value="option2">İngilizce</option>
+            </select>
+        </div> -->
+    </footer>
+   <script src="../js/login.js"></script>
+  <!-- <script src="../js/main.js"></script> -->
+  <script src="../js/sing.js"></script>
+</body>
+</html> 

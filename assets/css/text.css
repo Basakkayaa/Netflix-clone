@@ -1,0 +1,12 @@
+.text-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 60px;
+}
+.text-right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-right: 60px;
+}

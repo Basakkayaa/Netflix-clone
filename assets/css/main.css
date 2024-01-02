@@ -1,0 +1,190 @@
+body{
+    background-color: black;
+    color: white;
+    font-family:sans-serif;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+header{
+    width: 100%;
+    position:absolute;
+    z-index: 1000;
+}
+
+header>.container{
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    z-index: 1000;
+    justify-content: space-around;
+    position: relative;
+
+
+}
+
+    
+/* header::after{
+    content: '';
+    background-repeat: no-repeat;
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    width: 100vw;
+    transform: translateX(-50%);
+    top: 50%;
+} */
+
+section{
+    width: 100%;
+}
+.movie{
+   /* width: 100vh; */
+   filter: brightness(0.3);
+   /* overflow: clip;  */
+   background-image: url(../img/login_back.jpg);
+   background-size: cover; /* Arka plan resmini tam uzunlukta yerleştirir */
+    background-position: center;
+   background-repeat: no-repeat;
+   /* padding-left: 30%; */
+   padding-top: 50%;
+   padding-right: 100%;
+   position: relative;
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 50px;
+}
+.navbar{
+    display: flex;
+    /* margin-top:15%;
+    margin-left: 10%; */
+    margin:10%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    position: absolute;
+}
+
+.login{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+.label{
+    margin: 1rem;
+}
+
+#back_section{
+    width: 100%;
+    position: relative;
+}
+
+#back_section>.container{
+    position:relative;
+    width: 100%;
+}
+
+#section_article{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: stretch;
+
+}
+
+#section_article>.container{
+    width: 100%;
+    height: 100%;
+    border-top: 3px solid grey;
+    border-bottom: 2px solid grey;
+    position: relative;
+    display: flex;
+    align-items:center ;
+    padding: 6%;
+    margin-left: auto;
+}
+#section_article>.container_question{
+        flex-direction: column;
+        gap: 50px;
+        position: relative;
+}
+
+.button_question{
+    background-color: transparent;
+    background: transparent;
+    border: none;
+    width: 600px;
+    height: 60px;
+    text-align: left;
+    padding: 10px;
+    color: white;
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+}
+.text_question{
+    margin: 10px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: inherit;
+    font-weight: inherit;
+    margin-bottom: 0.0625rem;
+    position: relative;
+    background-color: rgb(45,45,45);
+    color: rgb(255,255,255);
+    transition-duration: 250ms;
+    transition-property: background-color;
+    position: relative;
+}
+
+
+footer{
+    width: 100%;
+    position: relative;
+}
+footer>.container{
+    width: 100%;
+    height: 100%;
+    border-top: 3px solid grey;
+    border-bottom: 2px solid grey;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    margin-left: 10px;
+    padding: 20px;
+    flex-direction: column;
+}
+.list{
+    display:flex;
+}
+.footer_list{
+    display: flex;
+    gap: 50px;
+    margin: 20px;
+}
+li> a{
+    color: white;
+    text-decoration:underline;
+}
+.footer_list>ul>li{
+    margin: 50px;
+    gap: 10px;
+}
+
+.movieContainer{
+    width: 100%;
+}

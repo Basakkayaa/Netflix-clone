@@ -1,0 +1,40 @@
+button{
+    cursor: pointer;
+}
+
+.select{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.btn{
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+}
+.btn_login{
+    background-color: red;
+    color: white;
+    border:none;
+    font-weight: 700;
+}
+.btn_select{
+    font-weight: 700;
+    background-color:black;
+    color: white;
+}
+
+.btn_mail{
+    height: 50px;
+    width: 130px;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+ 
+
+}

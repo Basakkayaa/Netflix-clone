@@ -1,0 +1,107 @@
+.Login_container{
+    position: relative;
+    width: 100%;
+}
+.logo_login{
+    width: 100%;
+    z-index: 100;
+    margin: 50px;
+    position:relative;
+}
+
+.movie_login{
+    width: 100%;
+    height: 100vh;
+    filter: brightness(0.7);
+    background-image: url(../img/login_back.jpg);
+    background-size: cover; /* Arka plan resmini tam uzunlukta yerleştirir */
+     background-position: center;
+    background-repeat: no-repeat;
+    /* padding-left: 30%; */
+    position: absolute;
+ }
+
+ .row{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 20px;
+    /* filter: brightness(1.0); */
+ }
+
+
+ .row>input:not(:last-child){
+    width: 309px;
+    height: 45px;
+    border-radius: 9px;
+    background-color: white;
+ }
+ .login_element{
+    position:absolute;
+    /* top: 44%;
+    left:50%;
+    bottom: 50%;
+    right: 50%; */
+    /* transform: translate(-50%, -50%); */
+    left: 30%;
+    background-color: rgba(0,0,0,.75);
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding:13px;
+
+
+}
+ 
+.rem{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+
+
+#login_footer{
+    width: 100%;
+    height: fit-content;
+    position: absolute;
+    top: 80%;
+}
+
+.foot_container{
+
+    height: 100vh;
+    height:max-content;
+    padding-left: 10px;
+    padding: 30px;
+    background-color: rgba(0,0,0,.75);
+}
+
+.foot_login{
+    width: 100%;
+    /* height: 100%; */
+}
+
+@media (max-width:770Px) {
+    .Login_container{
+        display: block;
+        position: absolute;
+    }
+
+    .login_element{
+        position: absolute;
+        /* transform: none; */
+        background-color:rgba(0,0,0,.75) ;
+
+    }
+    #login_footer{
+        position: absolute;
+        display: flex;
+    }
+}

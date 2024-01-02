@@ -1,0 +1,104 @@
+/* font */
+.font-900{
+    font-weight: 900;
+}
+.font-700{
+    font-weight: 700;
+}
+
+.font-400{
+    font-weight: 400;
+}
+
+/* text */
+
+.size-2rem{
+    font-size: 2.5rem;
+}
+.text-54{
+    font-size: 54px;
+}
+
+.text-36{
+    font-size: 36px;
+}
+.text-24{
+    font-size: 24px;
+}
+
+.text-18{
+    font-size: 18px;
+}
+
+.text-16{
+    font-size: 16px;
+}
+
+/* text */
+.left{
+    text-align: left;
+}
+/* colors */
+.color-w{
+    color: white;
+}
+.color-grey{
+    color:grey;
+}
+/*  */
+.width{
+    width: 100%;
+}
+.width-auto{
+    width: auto;
+}
+
+.absolute{
+    position: absolute;
+}
+.relative{
+    position: relative;
+}
+
+/*  */
+.h-45{
+    height: 45px;
+}
+
+/* width */
+
+.width-309{
+    width: 309px;
+}
+
+/*  */
+.radius-5{
+    border-radius: 5px;
+}
+
+/*  */
+.bg-black{
+    background-color: black;
+}
+
+/*  */
+.center{
+    text-align:center ;
+
+}
+
+/* margins */
+.mt-10{
+    margin-top: 10px;
+}
+
+
+.netflix-sans-font-loaded {
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif
+}
+@font-face {
+    font-display: optional;
+    font-family: Netflix Sans;
+    font-weight: 100;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff2) format("woff2"),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff) format("woff")
+}

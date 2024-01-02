@@ -1,0 +1,42 @@
+#logo{
+    background-position:0 0;
+    background-clip: padding-box;
+    width: revert;
+    height: 35px;
+}
+
+.back_img{
+    width: 500px;
+    height: 500px;
+}
+
+.img_section{
+ 
+    height: 438px;
+}
+.img_section2{
+    width: 600px;
+    height: 400px;
+}
+
+.video{
+    width: 510px;
+    height: 200px;
+    margin: 46px;
+}
+.video1{
+    width: 514px;
+    height: 345px;
+}
+
+
+#logo_sing{
+    width: 200px;
+}
+
+.user_img{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+

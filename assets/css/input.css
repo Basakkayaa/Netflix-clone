@@ -1,0 +1,19 @@
+.mail_input{
+    width: 400px;
+    height: 30px;
+    background-color: transparent;
+     backdrop-filter: brightness(0.5);
+     padding: 10px;
+     font-size: 16px;
+     border-radius: 5px
+
+}
+
+
+.valid {
+    border: 2px solid green;
+}
+.invalid {
+    border: 2px solid red;
+}
+
