@@ -1,0 +1,62 @@
+[
+    {
+        "title": "Inception",
+        "rating": 4.8,
+        "imdb": 8.8,
+        "photo": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg"
+    },
+    {
+        "title": "The Shawshank Redemption",
+        "rating": 4.9,
+        "imdb": 9.3,
+        "photo": "https://m.media-amazon.com/images/I/815qtzaP9iL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+        "title": "The Dark Knight",
+        "rating": 4.7,
+        "imdb": 9.0,
+        "photo": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg"
+    },
+    {
+        "title": "Pulp Fiction",
+        "rating": 4.6,
+        "imdb": 8.9,
+        "photo": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p15684_p_v10_ag.jpg"
+    },
+    {
+        "title": "Forrest Gump",
+        "rating": 4.5,
+        "imdb": 8.8,
+        "photo": "https://m.media-amazon.com/images/S/pv-target-images/2d0c9e38968936e6711c7fb2bc7895b82d8bb9178b5a854e14dffa4b17b88487.jpg"
+    },
+    {
+        "title": "The Godfather",
+        "rating": 4.9,
+        "imdb": 9.2,
+        "photo": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
+    },
+    {
+        "title": "Schindler's List",
+        "rating": 4.8,
+        "imdb": 8.9,
+        "photo": "https://m.media-amazon.com/images/I/81+H4lZVw+L._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+        "title": "The Matrix",
+        "rating": 4.7,
+        "imdb": 8.7,
+        "photo": "https://m.media-amazon.com/images/I/613ypTLZHsL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+        "title": "The Silence of the Lambs",
+        "rating": 4.6,
+        "imdb": 8.6,
+        "photo": "https://m.media-amazon.com/images/I/51SHYSFNP2L._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+        "title": "Fight Club",
+        "rating": 4.8,
+        "imdb": 8.8,
+        "photo": "https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
+    }
+]

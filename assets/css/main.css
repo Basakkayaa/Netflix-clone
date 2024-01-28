@@ -186,5 +186,34 @@ li> a{
 }
 
 .movieContainer{
-    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    top: 8rem;
+    flex-wrap: wrap;
+}
+.cardMovie{
+    margin: 20px;
+    width: 250px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+#moviePage>.container{
+    margin-top: 5px;
+    display: flex;
+    
+}
+#moviePage>.container>nav{
+    display: flex;
+    gap: 10px;
+}
+#moviePage>.container>nav>ul>li>a{
+    text-decoration: none;
 }
